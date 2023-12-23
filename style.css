@@ -23,7 +23,7 @@ body {
 
 .container {
     background-color: var(--grey);
-    height: 60vh;
+    height: 65vh;
     width: 26rem;
     display: flex;
     flex-direction: column;
