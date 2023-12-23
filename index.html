@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <p class="operator"></p>
+        <div class="input-container">
+            <input type="text" readonly class="input1">
+            <input type="text" readonly class="input2">
+        </div>
+        <div class="btn-container">
+            <button class="btn" onclick="btnOnclick('9')">9</button>
+            <button class="btn" onclick="btnOnclick('8')">8</button>
+            <button class="btn" onclick="btnOnclick('7')">7</button>
+            <button class="btn orange" onclick="plusBtn()">+</button>
+
+            <button class="btn" onclick="btnOnclick('6')">6</button>
+            <button class="btn" onclick="btnOnclick('5')">5</button>
+            <button class="btn" onclick="btnOnclick('4')">4</button>
+            <button class="btn orange" onclick="minusBtn()">-</button>
+
+            <button class="btn" onclick="btnOnclick('3')">3</button>
+            <button class="btn" onclick="btnOnclick('2')">2</button>
+            <button class="btn" onclick="btnOnclick('1')">1</button>
+            <button class="btn orange" onclick="multiplyBtn()">x</button>
+
+            <button class="btn" onclick="btnOnclick('.')">.</button>
+            <button class="btn" onclick="btnOnclick('0')">0</button>
+            <button class="btn orange equal" onclick="equalBtn()">=</button>
+            <button class="btn orange" onclick="devideBtn()">&divide;</button>
+            <button class="btn red ac" onclick="clearBtn()">AC</button>
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
